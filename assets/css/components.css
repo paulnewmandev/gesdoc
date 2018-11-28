@@ -42,7 +42,7 @@ html {
       background: url(../../app-assets/images/backgrounds/bg-2.jpg) no-repeat center center fixed;
       background-size: cover; }
     html body .pace .pace-progress {
-      background: #FF4961; }
+      background: #2CA9DF; }
 
 /*
 * Blank page
@@ -156,7 +156,7 @@ footer.footer-light {
   background: #FFFFFF; }
 
 footer.footer-dark {
-  background: #2C303B;
+  background: #293A4A;
   color: #fff; }
 
 /*=========================================================================================
@@ -299,7 +299,7 @@ footer.footer-dark {
           background-color: transparent; }
   .main-menu.menu-dark {
     color: #dcdcdc;
-    background: #2C303B; }
+    background: #293A4A; }
     .main-menu.menu-dark .main-menu-header {
       padding: 20px; }
       .main-menu.menu-dark .main-menu-header .menu-search {
@@ -309,7 +309,7 @@ footer.footer-dark {
         .main-menu.menu-dark .main-menu-header .menu-search:focus {
           border-color: #0b0c0f; }
     .main-menu.menu-dark .navigation {
-      background: #2C303B; }
+      background: #293A4A; }
       .main-menu.menu-dark .navigation .navigation-header {
         color: #dcdcdc;
         padding: 30px 20px 8px 20px; }
@@ -395,9 +395,9 @@ footer.footer-dark {
             .main-menu.menu-dark .navigation > li ul .active .hover > a {
               background-color: transparent; }
         .main-menu.menu-dark .navigation > li > ul {
-          background: #2C303B; }
+          background: #293A4A; }
     .main-menu.menu-dark ul.menu-popout {
-      background: #2C303B; }
+      background: #293A4A; }
       .main-menu.menu-dark ul.menu-popout li a {
         color: #dcdcdc; }
         .main-menu.menu-dark ul.menu-popout li a span.menu-sub-title {
@@ -1133,7 +1133,7 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu-footer .content {
   background-color: #BABFC7; }
 
 .avatar-busy i {
-  background-color: #FF4961; }
+  background-color: #2CA9DF; }
 
 .avatar-away i {
   background-color: #FF9149; }
@@ -1226,13 +1226,13 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu-footer .content {
     transition: all 0.3s ease-out; }
 
 .navbar-light .search-input .input, .navbar-semi-dark .search-input .input {
-  color: #2C303B; }
+  color: #293A4A; }
   .navbar-light .search-input .input::placeholder, .navbar-semi-dark .search-input .input::placeholder {
-    color: #2C303B; }
+    color: #293A4A; }
 
 .navbar-light .search-input.open .input, .navbar-semi-dark .search-input.open .input {
-  color: #2C303B;
-  border-bottom: 1px solid #2C303B; }
+  color: #293A4A;
+  border-bottom: 1px solid #293A4A; }
 
 .navbar-dark .search-input .input, .navbar-semi-light .search-input .input {
   color: #F9FAFD; }
@@ -1246,8 +1246,8 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu-footer .content {
 @media (max-width: 991.98px) {
   #navbar-mobile .search-input.open .input {
     width: 180px;
-    color: #2C303B;
-    border-bottom: 1px solid #2C303B;
+    color: #293A4A;
+    border-bottom: 1px solid #293A4A;
     overflow: hidden;
     position: relative;
     background: #fff;
@@ -3496,7 +3496,7 @@ table.dataTable {
   box-shadow: 0 0 2px #444; }
 
 .content-wrapper table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before, .content-wrapper table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before {
-  background-color: #FF4961; }
+  background-color: #2CA9DF; }
 
 @media (max-width: 991.98px) {
   .dataTables_wrapper table {

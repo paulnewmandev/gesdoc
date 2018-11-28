@@ -137,11 +137,11 @@
   background-repeat: repeat-x; }
 
 .bg-gradient-x2-danger {
-  background-image: linear-gradient(to right, #FF8090, #FF4961 50%, #FFA4B0);
+  background-image: linear-gradient(to right, #FF8090, #2CA9DF 50%, #FFA4B0);
   background-repeat: no-repeat; }
 
 .bg-gradient-y2-danger {
-  background-image: linear-gradient(#FF8090, #FF4961 50%, #FFA4B0);
+  background-image: linear-gradient(#FF8090, #2CA9DF 50%, #FFA4B0);
   background-repeat: no-repeat; }
 
 .bg-gradient-radial-danger {

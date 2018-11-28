@@ -47,12 +47,12 @@
   color: #FF9149; }
 
 .tooltip-bg-danger .tooltip-inner {
-  background-color: #FF4961; }
+  background-color: #2CA9DF; }
   .tooltip-bg-danger .tooltip-inner:before {
-    border-top-color: #FF4961 !important; }
+    border-top-color: #2CA9DF !important; }
 
 .tooltip-text-danger .tooltip-inner {
-  color: #FF4961; }
+  color: #2CA9DF; }
 
 .tooltip-bg-red .tooltip-inner {
   background-color: #F44336; }

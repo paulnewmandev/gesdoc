@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="theme-color" content="#2C303B" />
+    <meta name="theme-color" content="#293A4A" />
     <meta name="robots" content="noindex,nofollow" />
     <meta name="Googlebot" content="noindex,nofollow" />
     <meta name="author" content="MEINPROS" />

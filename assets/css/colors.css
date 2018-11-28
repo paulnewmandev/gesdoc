@@ -3206,30 +3206,30 @@ input:focus ~ .bg-danger {
   background: rgba(255, 100, 121, 0.8); }
 
 .danger {
-  color: #FF4961 !important; }
+  color: #2CA9DF !important; }
 
 .bg-danger {
-  background-color: #FF4961 !important; }
+  background-color: #2CA9DF !important; }
   .bg-danger .card-header, .bg-danger .card-footer {
     background-color: transparent; }
   .bg-danger.bg-glow {
     box-shadow: 0px 1px 20px 1px rgba(255, 73, 97, 0.6); }
 
 .selectboxit.selectboxit-btn.bg-danger {
-  background-color: #FF4961 !important; }
+  background-color: #2CA9DF !important; }
 
 .alert-danger {
-  border-color: #FF4961 !important;
+  border-color: #2CA9DF !important;
   background-color: #ff909f !important;
   color: #960014 !important; }
   .alert-danger .alert-link {
     color: #6d000e !important; }
 
 .border-danger {
-  border-color: #FF4961; }
+  border-color: #2CA9DF; }
 
 .overlay-danger {
-  background: #FF4961;
+  background: #2CA9DF;
   /* The Fallback */
   background: rgba(255, 73, 97, 0.8); }
 
@@ -3244,7 +3244,7 @@ input:focus ~ .bg-danger {
       } */
 .btn-danger {
   border-color: #FF394F !important;
-  background-color: #FF4961 !important;
+  background-color: #2CA9DF !important;
   color: #FFFFFF; }
   .btn-danger:hover {
     border-color: #FF4259 !important;
@@ -3258,17 +3258,17 @@ input:focus ~ .bg-danger {
     box-shadow: 0px 1px 20px 1px rgba(255, 73, 97, 0.6); }
 
 .btn-outline-danger {
-  border-color: #FF4961;
+  border-color: #2CA9DF;
   background-color: transparent;
-  color: #FF4961; }
+  color: #2CA9DF; }
   .btn-outline-danger:hover {
-    background-color: #FF4961;
+    background-color: #2CA9DF;
     color: #FFF !important; }
   .btn-outline-danger.btn-glow {
     box-shadow: 0px 1px 20px 1px rgba(255, 73, 97, 0.6); }
 
 input[type="checkbox"].bg-danger + .custom-control-label:before, input[type="radio"].bg-danger + .custom-control-label:before {
-  background-color: #FF4961 !important; }
+  background-color: #2CA9DF !important; }
 
 /* .custom-control-label{
         &:before{
@@ -3276,22 +3276,22 @@ input[type="checkbox"].bg-danger + .custom-control-label:before, input[type="rad
         }
       } */
 input:focus ~ .bg-danger {
-  box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.21rem #FF4961 !important; }
+  box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.21rem #2CA9DF !important; }
 
 .border-danger {
-  border: 1px solid #FF4961 !important; }
+  border: 1px solid #2CA9DF !important; }
 
 .border-top-danger {
-  border-top: 1px solid #FF4961; }
+  border-top: 1px solid #2CA9DF; }
 
 .border-bottom-danger {
-  border-bottom: 1px solid #FF4961; }
+  border-bottom: 1px solid #2CA9DF; }
 
 .border-left-danger {
-  border-left: 1px solid #FF4961; }
+  border-left: 1px solid #2CA9DF; }
 
 .border-right-danger {
-  border-right: 1px solid #FF4961; }
+  border-right: 1px solid #2CA9DF; }
 
 .danger.darken-1 {
   color: #FF4259 !important; }

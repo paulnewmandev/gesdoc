@@ -25,11 +25,11 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
           <ul class="nav navbar-nav float-right">
             <li class="dropdown dropdown-user nav-item">
               <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
-                <span class="mr-1">@Andrea Valencia <i class="ficon ft-chevron-down"></i></span>
+                <span class="mr-1">@<?=$this->session->userdata('gs_nombres').' '.$this->session->userdata('gs_apellidos');?> <i class="ficon ft-chevron-down"></i></span>
                 </span>
               </a>
-              <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i class="ft-user"></i>Mi Perfil</a>
-                <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-power"></i> Salir</a>
+              <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="<?=site_url('panel').'/perfil';?>"><i class="ft-user"></i>Mi Perfil</a>
+                <div class="dropdown-divider"></div><a class="dropdown-item" href="<?=site_url('panel').'/salir';?>"><i class="ft-power"></i> Salir</a>
               </div>
             </li>
           </ul>
@@ -44,19 +44,10 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
       <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
       <li class=" nav-item"><a href="#"><i class="ft-alert-triangle"></i><span class="menu-title">Siniestros</span></a>
           <ul class="menu-content">
-            <li><a class="menu-item" href="#">Nuevo</a></li>
-            <li><a class="menu-item" href="#">Ver Todos</a></li>
-          </ul>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="ft-alert-triangle"></i><span class="menu-title">IMVEC</span></a>
-          <ul class="menu-content">
-            <li><a class="menu-item" href="#">Ver Todos</a></li>
-          </ul>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="ft-users"></i><span class="menu-title">Usuarios</span></a>
-          <ul class="menu-content">
-            <li><a class="menu-item" href="#">Administradores</a></li>
-            <li><a class="menu-item" href="#">Aseguradores</a></li>
+          <?php if($this->session->userdata('gs_rol')==2){?>
+            <li><a class="menu-item" href="<?=site_url('panel').'/nuevoSiniestro';?>">Nuevo</a></li>
+            <?php } ?>
+            <li><a class="menu-item" href="<?=site_url('panel').'/verSiniestros';?>">Ver Todos</a></li>
           </ul>
         </li>
       </ul>

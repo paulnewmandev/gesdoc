@@ -18,22 +18,23 @@ data-open="click" data-menu="vertical-menu" data-col="1-column">
                 </div>
                 <div class="card-content">
                   <div class="card-body">
-                    <form id="loginUsuario" class="form-horizontal form-simple" action="<?=site_url('panel');?>" method="POST"  enctype="multipart/form-data">
+                  <form id="acceder" action="<?=site_url('login')?>/verificar" onsubmit="return acceder();" method="post">
+                  <div id="message" class="alert alert-danger text-center" role="alert">
+											  <i class="fa fa-exclamation-triangle" style="font-size:20px;"></i> <br/> Usuario y/o clave invalido
+											</div>
                       <fieldset class="form-group position-relative has-icon-left mb-0">
                         <input type="email" class="form-control form-control-lg input-lg" placeholder="Email" id="txtEmail" name="txtEmail" required>
                         <div class="form-control-position">
                           <i class="ft-user"></i>
                         </div>
                       </fieldset>
+                      <br/>
                       <fieldset class="form-group position-relative has-icon-left">
                         <input type="password" class="form-control form-control-lg input-lg" placeholder="Contraseña" id="txtClave" name="txtClave" required>
                         <div class="form-control-position">
                           <i class="la la-key"></i>
                         </div>
                       </fieldset>
-                      <div class="form-group row">
-                        <div class="col-md-12 col-12 text-center"><a href="recover-password.html" class="card-link">¿Olvido su contraseña?</a></div>
-                      </div>
                       <button id="submit" type="submit" class="btn btn-info btn-lg btn-block"><i class="ft-unlock"></i> Entrar</button>
                     </form>
                   </div>
@@ -45,3 +46,27 @@ data-open="click" data-menu="vertical-menu" data-col="1-column">
       </div>
     </div>
   </div>
+  <script>
+	$('#message').hide();
+	function acceder(){
+		var ruta = $("#acceder").attr("action");
+		var datos = $("#acceder").serialize();
+	$.ajax({
+		url: ruta,
+		type:'POST',
+		data:datos,
+    processData:false,
+		cache:false,
+		async:true,
+		success: function (rep) {
+      if(rep=='success'){
+        window.location.href='<?=site_url('panel');?>';
+      }else{
+				$('#message').show();
+				$('#message').delay(8000).hide(600);
+			}
+		}
+	});
+		return false;
+	}
+</script>

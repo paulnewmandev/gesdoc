@@ -63,7 +63,7 @@
 }
 .lobilists .lobilist.lobilist-danger .lobilist-header {
   border-bottom: 1px solid #FF394F;
-  background-color: #FF4961;
+  background-color: #2CA9DF;
 }
 .lobilists .lobilist.lobilist-danger .lobilist-header input {
   background-color: transparent;
@@ -82,11 +82,11 @@
 }
 .lobilists .lobilist.lobilist-danger .lobilist-form-footer {
   border-top: 1px solid #FF394F;
-  background-color: #FF4961;
+  background-color: #2CA9DF;
 }
 .lobilists .lobilist.lobilist-danger .lobilist-footer {
   border-top: 1px solid #FF394F;
-  background-color: #FF4961;
+  background-color: #2CA9DF;
 }
 .lobilists .lobilist.lobilist-success {
   border: 1px solid #1EC481;
@@ -283,7 +283,7 @@
   background-color: #e2e2e2;
 }
 .lobilists .lobilist-actions .dropdown-menu .lobilist-danger {
-  background-color: #FF4961;
+  background-color: #2CA9DF;
 }
 .lobilists .lobilist-actions .dropdown-menu .lobilist-danger:hover {
   background-color: #de6764;
